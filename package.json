@@ -19,7 +19,9 @@
   "homepage": "https://github.com/shaozhiyuan/YUI#readme",
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.4.3",
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
   }
 }
