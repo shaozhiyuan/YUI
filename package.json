@@ -1,0 +1,25 @@
+{
+  "name": "YUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaozhiyuan/YUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaozhiyuan/YUI/issues"
+  },
+  "homepage": "https://github.com/shaozhiyuan/YUI#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
