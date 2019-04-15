@@ -1,6 +1,8 @@
+import React from 'react';
+
 function Button() {
     // @ts-ignore
-    return (<div>按钮</div>);
+    return (<button>按钮</button>);
 };
 
 
