@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
@@ -8,7 +9,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist/lib'),
-        library: 'FUI',
+        library: 'YUI',
         libraryTarget: 'umd',
     },
     module: {
@@ -18,6 +19,12 @@ module.exports = {
                 loader: 'awesome-typescript-loader'
             }
         ]
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'YUI-react',
+            template: 'index.html'
+        })
+    ]
 
 };

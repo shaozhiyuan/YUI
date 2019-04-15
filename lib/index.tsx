@@ -1,2 +1,5 @@
-const a = 1;
-console.log(a);
+import React from 'react';
+import ReactDom from 'react-dom';
+
+
+console.log(React,ReactDom);
