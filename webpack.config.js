@@ -1,9 +1,8 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
-    mode: 'production',
+    // mode: 'production',
     entry: {
         index: './lib/index.tsx'
     },
@@ -23,25 +22,25 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'YUI-react',
-            template: 'index.html'
-        })
-    ],
-    externals: {    //外部环境 不打包的库
-        react: {
-            commonjs: 'react',
-            commonjs2: 'react',
-            amd: 'react',
-            root: 'React',
-        },
-        'react-dom': {
-            commonjs: 'react-dom',
-            commonjs2: 'react-dom',
-            amd: 'react-dom',
-            root: 'ReactDOM',
-        },
-    },
+    // plugins: [
+    //     new HtmlWebpackPlugin({
+    //         title: 'YUI-react',
+    //         template: 'index.html'
+    //     })
+    // ],
+    // externals: {    //外部环境 不打包的库
+    //     react: {
+    //         commonjs: 'react',
+    //         commonjs2: 'react',
+    //         amd: 'react',
+    //         root: 'React',
+    //     },
+    //     'react-dom': {
+    //         commonjs: 'react-dom',
+    //         commonjs2: 'react-dom',
+    //         amd: 'react-dom',
+    //         root: 'ReactDOM',
+    //     },
+    // },
 
 };
