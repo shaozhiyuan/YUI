@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist/lib'),
-        library: 'yuan-ui',
+        library: 'yui',
         libraryTarget: 'umd',
     },
     resolve: {
@@ -24,6 +24,10 @@ module.exports = {
                 test: /\.svg$/,
                 loader: 'svg-sprite-loader',
             },
+            {
+                test: /\.s([ac])ss$/,
+                loader: ['style-loader', 'css-loader', 'sass-loader'],
+            }
         ]
     },
     // plugins: [
