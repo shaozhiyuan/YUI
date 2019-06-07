@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" time="5.252">
+  <testsuite name="classes" errors="0" failures="0" skipped="0" timestamp="2019-06-07T04:35:40" time="3.032" tests="5">
+    <testcase classname="classes 接受一个className" name="classes 接受一个className" time="0.005">
+    </testcase>
+    <testcase classname="classes 接受2个className" name="classes 接受2个className" time="0.001">
+    </testcase>
+    <testcase classname="classes 接受undefined" name="classes 接受undefined" time="0">
+    </testcase>
+    <testcase classname="classes 接受奇怪参数" name="classes 接受奇怪参数" time="0">
+    </testcase>
+    <testcase classname="classes 什么都不传" name="classes 什么都不传" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="button" errors="0" failures="0" skipped="0" timestamp="2019-06-07T04:35:40" time="3.082" tests="1">
+    <testcase classname="button 他是个div" name="button 他是个div" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Icon" errors="0" failures="0" skipped="0" timestamp="2019-06-07T04:35:40" time="3.122" tests="2">
+    <testcase classname="Icon 他是个icon,svg" name="Icon 他是个icon,svg" time="0.02">
+    </testcase>
+    <testcase classname="Icon onClick" name="Icon onClick" time="0.044">
+    </testcase>
+  </testsuite>
+  <testsuite name="mytest" errors="0" failures="0" skipped="0" timestamp="2019-06-07T04:35:43" time="0.327" tests="1">
+    <testcase classname="mytest 1等于1" name="mytest 1等于1" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
