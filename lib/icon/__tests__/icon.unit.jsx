@@ -5,7 +5,6 @@ import {mount} from 'enzyme';
 
 describe('Icon', () => {
     it('他是个icon,svg', () => {
-        console.log(11);
         const json = renderer.create(<Icon name="wechat"/>).toJSON();
         expect(json).toMatchSnapshot();
     });
