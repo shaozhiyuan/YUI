@@ -7,8 +7,6 @@ describe('Icon', () => {
     it('他是个icon,svg', () => {
         const json = renderer.create(<Icon name="wechat"/>).toJSON();
         expect(json).toMatchSnapshot();
-
-
     });
     it('onClick', () => {
         const fn = jest.fn();
