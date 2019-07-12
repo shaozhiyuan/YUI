@@ -12,6 +12,6 @@ describe('Icon', () => {
         const fn = jest.fn();
         const c = mount(<Icon name='wechat' onClick={fn}/>);
         c.find('svg').simulate('click');
-        expect(fn).toBeCalled();
+        expect(fn).toBeCalled();    
     });
 });
