@@ -8,6 +8,10 @@ describe('Icon', () => {
         const json = renderer.create(<Icon name="wechat"/>).toJSON();
         expect(json).toMatchSnapshot()
     });
+    it('render successfully', () => {
+        const json = renderer.create(<Icon name="wechat"/>).toJSON();
+        expect(json).toMatchSnapshot()
+    });
     it('onClick', () => {
         const fn = jest.fn();
         const c = mount(<Icon name='wechat' onClick={fn}/>);
