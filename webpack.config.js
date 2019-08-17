@@ -33,7 +33,7 @@ module.exports = {
     // plugins: [
     //     new HtmlWebpackPlugin({
     //         title: 'YUI-react',
-    //         template: 'index.html'
+    //         template: 'example.html'
     //     })
     // ],
     // externals: {    //外部环境 不打包的库
