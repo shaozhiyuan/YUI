@@ -9,7 +9,7 @@ const sc = scopedClassMaker('yui-layout');
 const Footer: React.FunctionComponent<Props> = (props) => {
   const {className, ...rest} = props;
   return (
-    <div className={sc('footer', {extra: className}) } {...rest}>x</div>
+    <div className={sc('footer', {extra: className}) } {...rest}>{props.children}</div>
   );
 };
 
