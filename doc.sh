@@ -2,7 +2,7 @@
 
 yarn doc
 git checkout gh-pages
-mv -f doc/8 ./
+mv -f doc/* ./
 git add .
 git commit -m "update"
 git push
