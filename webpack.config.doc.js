@@ -9,7 +9,7 @@ module.exports = Object.assign({}, base, {
     example: './example.tsx',
   },
   output: {
-    path: path.resolve(__dirname, 'doc'),
+    path: path.resolve(__dirname, './doc'),
   },
   plugins: [
     new HtmlWebpackPlugin({
