@@ -6,6 +6,7 @@ import IconDemo from './lib/icon/icon.demo';
 import ButtonExample from './lib/button.example';
 import DialogExample from './lib/dialog/dialog.example';
 import LayoutExample from './lib/layout/layout.example';
+import FormExample from './lib/form/form.example';
 import {Layout, Header, Content, Aside, Footer} from './lib/layout/layout';
 
 import './example.scss';
@@ -36,6 +37,9 @@ ReactDom.render((
             <li>
               <NavLink to="/layout">layout布局</NavLink>
             </li>
+            <li>
+              <NavLink to="/form">Form</NavLink>
+            </li>
           </ul>
         </Aside>
         <Content className="site-page-content">
@@ -43,6 +47,7 @@ ReactDom.render((
           <Route path="/button" component={ButtonExample}/>
           <Route path="/dialog" component={DialogExample}/>
           <Route path="/layout" component={LayoutExample}/>
+          <Route path="/form" component={FormExample}/>
         </Content>
         <Footer className="site-page-footer">
           &copy; 邵志远
